@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--html,listas,form,button,inputs,media-->
+    <div>
+        <section class="aleft">
+            <h1>Trabajo con listas</h1>
+            <ul> <!--unordered lists-->
+                <li> Elemento 1 </li>
+                <li> Elemento 2 </li>
+                <li> Elemento 3 </li>
+                <li> Elemento 4 </li>
+                
+            </ul>
+
+            <ol type="I">
+                <li> Elemento 1 </li>
+                <li> Elemento 2 </li>
+                <li> Elemento 3 </li>
+                <li> Elemento 4 </li>
+                <li>
+                    <ul>
+                        <li>Subelemento 1</li>
+                        <li>Subelemento 2</li>
+                    </ul>
+                </li>
+                <li>Eklemento 5</li>
+            </ol>
+        </section>
+        <section class="aright">
+            <form action="Index.html" method="POST" enctype="multipart/form-data">
+                <div>
+                    <label for="">Nombre completo</label>
+                    <input type="text" name="Nombre" required>
+                </div>
+                <div>
+                    <label for="">Fecha de cumpleaños</label>
+                    <input type="date" name="Fecha">
+                </div>
+                <div>
+                    <label for="">Seleccion tu genero</label>
+                    <select name="Genero" id="">
+                        <option value="">Generos</option> 
+                        <option value="M">Masculino</option> 
+                        <option value="F">Femenino</option>   
+                    </select>
+                </div>
+                <div>
+                    <label for="">EMail</label>
+                    <input type="email" name="Correo">
+                </div>
+                <div>
+                    <label for="">Color</label>
+                    <input type="color" name="color">
+                </div>
+                <div>
+                    <label for="">Agrega tu archivo</label>
+                    <input type="file" name="file">
+                </div>
+                <div>
+                    <button type="button">Button</button>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <div>
+        <section class="aleft">
+            <table>
+                <thead>
+                    <tr> 
+                        <th colspan="3"> Lista de articulos del hogas </th> 
+                    </tr>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripcion</th>
+                        <th>Ubicacion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Plancha</td>
+                        <td>Sirve para  lavar ropa</td>
+                        <td>Corredo en el patio</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="ariht">
+            <audio src="carpeta/audio.mp3">
+
+            </audio>
+            <video src="carpeta/video.mp4">
+
+            </video>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VMkg2F4QfIA" >
+            </iframe>
+        </section>
+    </div>
+</body>
+</html>
